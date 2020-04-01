@@ -12,7 +12,7 @@ if __name__ == "__main__":
         soup = BeautifulSoup(data.text, "html.parser")
         #tr =soup.find_all("tbody")
         tr=soup.find_all('div', class_='site-stats-count')
-        
+        #this just test 
         str=""
         for x in tr:
             str+=x.text
